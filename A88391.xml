@@ -1,0 +1,621 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A satyr, occasioned by the author's survey of a scandalous pamphlet intituled, The king's cabanet opened.</title>
+            <author>Lluelyn, Martin, 1616-1682.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1645</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 22 KB of XML-encoded text transcribed from 7 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A88391</idno>
+            <idno type="STC">Wing L2627A</idno>
+            <idno type="STC">ESTC R200198</idno>
+            <idno type="EEBO-CITATION">45097827</idno>
+            <idno type="OCLC">ocm 45097827</idno>
+            <idno type="VID">171409</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A88391)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 171409)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2573:2)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A satyr, occasioned by the author's survey of a scandalous pamphlet intituled, The king's cabanet opened.</title>
+                  <author>Lluelyn, Martin, 1616-1682.</author>
+               </titleStmt>
+               <extent>[2], 10 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Leonard Lichfield, printer to the university,</publisher>
+                  <pubPlace>Oxford, :</pubPlace>
+                  <date>1645.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Attributed to Martin Lluelyn by Wing.</note>
+                  <note>In verse.</note>
+                  <note>Device on t.p. appears to be a variant of Mck. 179 or 378, without initials.</note>
+                  <note>Reproduction of original in the Henry E. Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>King's cabinet opened.</term>
+               <term>Great Britain --  History --  Civil War, 1642-1649 --  Poetry.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-11</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-12</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-02</date>
+            <label>Pip Willcox</label>Sampled and proofread</change>
+         <change>
+            <date>2012-02</date>
+            <label>Pip Willcox</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:171409:1" rendition="simple:additions"/>
+            <p>A SATYR, OCCASIONED BY THE AUTHOR'S SURVEY OF a Scandalous Pamphlet Intituled, The <hi>King's Cabanet Opened.</hi>
+            </p>
+            <p>OXFORD, Printed by LEONARD LICHFIELD, Printer to the Univerſity, 1645.</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:171409:2"/>
+            <pb n="1" facs="tcp:171409:2"/>
+            <head>A SATYR.</head>
+            <lg>
+               <l>
+                  <seg rend="decorInit">W</seg>Hen <hi>Lawes</hi> and <hi>Princes</hi> are deſpis'd, and cheap,</l>
+               <l>When <hi>High-pitcht Miſcheifs</hi> all are in the heap;</l>
+               <l>
+                  <hi>Returnes</hi> muſt ſtill be had; <hi>Guilt</hi> muſt ſtrive more,</l>
+               <l>Though not to' <hi>Enoble,</hi> yet to' <hi>Enlarge her ſtore.</hi>
+               </l>
+               <l>Poore <hi>Cheap Deſignes!</hi> the <hi>Rebell</hi> now muſt flie</l>
+               <l>To <hi>Packet-Warre,</hi> to <hi>Paper-Treacherie.</hi>
+               </l>
+               <l>The <hi>Baſiliskes</hi> are turn'd to <hi>Cloſſet-Spies,</hi>
+               </l>
+               <l>And to their <hi>Pois'nous</hi> adde <hi>Enquiring</hi> Eyes.</l>
+               <l>As <hi>Snakes</hi> and <hi>Serpents</hi> ſhould they caſt their ſting,</l>
+               <l>Still the ſame <hi>Hate,</hi> though not ſame <hi>Poyſon</hi> fling;</l>
+               <l>And their <hi>Vaine teeth</hi> to the ſame point addreſſe,</l>
+               <l>With the like <hi>Rancor,</hi> though unlike <hi>Succeſse:</hi>
+               </l>
+               <l>So thoſe that into undiſcerning veines,</l>
+               <l>Have throwne their <hi>Venome deepe,</hi> and their dark ſtaines,</l>
+               <l>By <hi>fraile Advantages,</hi> ſtill find it good,</l>
+               <l>To keep th' Infection <hi>high</hi> i'th' <hi>Peoples Blood.</hi>
+               </l>
+               <l>For <hi>Active Treaſon</hi> muſt be <hi>Doing</hi> ſtill:</l>
+               <l>Leſt ſhe <hi>Vnlearne</hi> her <hi>Art</hi> of <hi>Doing Ill.</hi>
+               </l>
+               <l>Who now have waded through all <hi>Publike</hi> awe,</l>
+               <l>Will break through <hi>Secrets,</hi> &amp; prophane <hi>Their Law.</hi>
+               </l>
+               <pb n="2" facs="tcp:171409:3"/>
+               <l>Know you that would Their <hi>Act</hi> and <hi>Statute</hi> ſee,</l>
+               <l>Nature kept <hi>Court,</hi> and made it her <hi>Decree.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>When <hi>Angels</hi> talke, all their <hi>Conceipts</hi> are brought</l>
+               <l>From <hi>Mind</hi> to <hi>Mind,</hi> and they diſcourſe by <hi>Thought.</hi>
+               </l>
+               <l>A <hi>Cloſe Idaea</hi> moves, and <hi>Silence</hi> flies</l>
+               <l>To <hi>poſt</hi> the <hi>Meſsage,</hi> and <hi>diſpatch Replies.</hi>
+               </l>
+               <l>And though <hi>Ten Legions,</hi> in the Round are bent,</l>
+               <l>They only <hi>heare,</hi> to whom the Talke <hi>was meant.</hi>
+               </l>
+               <l>Now, though in <hi>Men</hi> a diff'rent Law controules,</l>
+               <l>And <hi>Soules</hi> are not <hi>Embaſsadours</hi> to <hi>Soules:</hi>
+               </l>
+               <l>Nature gave Reaſon pow'r to find a way,</l>
+               <l>Which none but theſe durſt venture to betray.</l>
+               <l>"Two cloſe ſafe Path's ſhe did bequeath to men,</l>
+               <l>"In <hi>Preſence, Whiſper;</hi> and at <hi>Diſtance, Penne.</hi>
+               </l>
+               <l>Publike <hi>Decrees</hi> and <hi>Thoughts</hi> were elſe the ſame,</l>
+               <l>Nor were it to <hi>Converſe,</hi> but to <hi>Proclaime.</hi>
+               </l>
+               <l>Conceipts were elſe <hi>Records,</hi> but by this care,</l>
+               <l>Our <hi>Thoughts</hi> no <hi>Commons,</hi> but <hi>Incloſures</hi> are:</l>
+               <l>What bold <hi>Intruders</hi> then are who aſſaile,</l>
+               <l>To cut their Princes <hi>Hedge,</hi> and break His <hi>Pale!</hi>
+               </l>
+               <l>That ſo <hi>Vnmanly gaze,</hi> and dare be ſeene</l>
+               <l>Ev'n then, when He converſes with His <hi>Queene?</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Yet, as who breaks the Tall Banks Riſing Side,</l>
+               <l>And all the Shore doth levie with the Tyde,</l>
+               <l>Doth not confine the Waves to any Bound,</l>
+               <l>But the whole Streame may gaine upon the Ground;</l>
+               <l>So theſe, <hi>ſtreight</hi> Proſpect ſcorn, and <hi>Private</hi> View,</l>
+               <l>"The Crime is ſmall that doth engage a Few.</l>
+               <l>Theſe Print their ſhame, they muſt Compleat their Sin:</l>
+               <l>Not take ſome <hi>Waves,</hi> and ſhutt the <hi>Sluce</hi> agen.</l>
+               <l>But, to the <hi>Rageing of their Sea,</hi> they doe</l>
+               <l>Let in the <hi>Madneſſe of the People too.</hi>
+               </l>
+            </lg>
+            <pb n="3" facs="tcp:171409:3"/>
+            <lg>
+               <l>But, 'cauſe the Crime muſt weare a <hi>Maske</hi> and <hi>Vaile,</hi>
+               </l>
+               <l>And faine the Serpent would conceale his <hi>Taile.</hi>
+               </l>
+               <l>No ſooner comes the <hi>Libell</hi> to our view,</l>
+               <l>But ſee a <hi>ſtay'd, demure, grave Preface too:</hi>
+               </l>
+               <l>Which ſeems to ſhew they would not thus intrude,</l>
+               <l>Nor preſſe ſo farre but for the <hi>Publike</hi> Good.</l>
+               <l>But as ſome <hi>London Beggers</hi> uſe to ſtand,</l>
+               <l>In <hi>Graecians Coates</hi> with Papers in their hand,</l>
+               <l>Who are (as them in diff'rent parts we meet)</l>
+               <l>
+                  <hi>Engliſh</hi> at Home, but <hi>ſolemne Greeks</hi> ith' ſtreet.</l>
+               <l>Of whom <hi>uncloth'd,</hi> and when the truth is heard,</l>
+               <l>
+                  <hi>Conſtantinople</hi> only knowes the <hi>Beard.</hi>
+               </l>
+               <l>So this <hi>ſly Masker,</hi> lay it's <hi>Tinſell</hi> by,</l>
+               <l>Is only <hi>Painted Zeale,</hi> and <hi>Pageantry.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>We need not let our <hi>Satyr</hi> here compute,</l>
+               <l>How it prophanes God in his <hi>Attribute.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <note place="margin">See the Preface.</note>But, for it's <hi>Light</hi> it need no <hi>Buſhell</hi> call,</l>
+               <l>A <hi>Semeſtreſse Thimble</hi> would <hi>Ecclipſe</hi> it all.</l>
+            </lg>
+            <lg>
+               <l>O! in what weakneſſe it pretends to creepe,</l>
+               <l>How well the <hi>Tyger</hi> perſonates the <hi>Sheepe.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>It not Returnes ill Language to the King,</l>
+               <l>Though the next Lines the <hi>Pſalmes</hi> againſt Him bring.</l>
+               <l>Then it to th' <hi>Buſineſse</hi> comes, and lets us know,</l>
+               <l>Who reads it either is it's <hi>Friend,</hi> or <hi>Foe.</hi>
+               </l>
+               <l>If <hi>Friend,</hi> the Scandals all muſt true appeare:</l>
+               <l>If <hi>Foe</hi> (alack the man is nere the neere.)</l>
+               <l>Foe no light moves, no <hi>Miracles</hi> like theſe,</l>
+               <l>Heel' ſay they're not the <hi>Kings</hi> too if he pleaſe,</l>
+               <l>And tell us pray, why may'nt your laſt words ſtand,</l>
+               <l>You counterfeit His <hi>Seale,</hi> why not His <hi>Hand?</hi>
+               </l>
+               <l>But to admit. We now deduce and bring,</l>
+               <l>What <hi>after Notes</hi> clearely imply oth' King.</l>
+            </lg>
+            <pb n="4" facs="tcp:171409:4"/>
+            <lg>
+               <l>Firſt, They His Conſort from His <hi>Secrets</hi> wreſt:</l>
+               <l>
+                  <note place="margin">See the firſt Annotati<g ref="char:EOLhyphen"/>on.</note>They doe allow the <hi>King,</hi> but not the <hi>Breast.</hi>
+               </l>
+               <l>The Sacred Knott muſt have a Tye and Force,</l>
+               <l>To joyne their <hi>Hands,</hi> but yet their <hi>Thoughts Divorce.</hi>
+               </l>
+               <l>And, as the Ivy wedds her Conſort-Tree,</l>
+               <l>Though joyn'd and cloſe their chaſt Embraces be,</l>
+               <l>Yet in thoſe <hi>Twynes</hi> and <hi>Circuits</hi> we can find,</l>
+               <l>No <hi>Traffick,</hi> no Commerce of <hi>Mind</hi> with <hi>Mind:</hi>
+               </l>
+               <l>So muſt the Sacred Lawes of Marriage peirce,</l>
+               <l>Here ſhe may <hi>Sprout,</hi> and <hi>Grow,</hi> but not <hi>Converſe.</hi>
+               </l>
+               <l>And like a Plant remov'd by 'Grafters toyle,</l>
+               <l>She finds, not <hi>Nuptials,</hi> but a change of <hi>Soyle.</hi>
+               </l>
+               <l>
+                  <hi>England</hi> to th' Queene Tranſplanted thus muſt prove,</l>
+               <l>No <hi>Forraigne Kingdom,</hi> but a <hi>Forraigne Grove.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>But, leſt this groundleſſe ſeeme, they Reaſons vexe,</l>
+               <l>And tell the World ſhe's of the Weaker Sexe.</l>
+               <l>In what wilde Braines this Madneſſe firſt began!</l>
+               <l>They're wondrous angry, 'cauſe the Queenes no Man.</l>
+               <l>Fond Sirs forbeare, doe not the world perplex:</l>
+               <l>
+                  <hi>Reaſon</hi> and <hi>Judgment</hi> are not things of <hi>Sexe.</hi>
+               </l>
+               <l>
+                  <hi>Soules</hi> and their <hi>Faculties</hi> were never heard,</l>
+               <l>To be confin'd to th' <hi>Dublet,</hi> and the <hi>Beard.</hi>
+               </l>
+               <l>Conſult one Age from this, and you ſhall find</l>
+               <l>A Queene the Glory of your Annalls ſhin'd.</l>
+               <l>But who to farre and diſtant Objects flyes,</l>
+               <l>Muſt ſay the Sunne wants <hi>Luſtre</hi> or He <hi>Eyes.</hi>
+               </l>
+               <l>Our <hi>Preſent Injur'd</hi> Queene returnes that ſtore,</l>
+               <l>And doth again, what could be done before:</l>
+               <l>By the <hi>Kings</hi> Judgment, ſhowes Her <hi>owne</hi> is Right,</l>
+               <l>And ſtill ſhe meets His Ray with her owne <hi>Light.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Thus the <hi>Wiſe King</hi> to <hi>Sheba's Queene</hi> was knowne,</l>
+               <l>Who knew <hi>Him Wiſe,</hi> by <hi>Wiſedome</hi> of <hi>her Owne.</hi>
+               </l>
+               <pb n="5" facs="tcp:171409:4"/>
+               <l>But as all <hi>Publike</hi> knowledge barr'd muſt be,</l>
+               <l>
+                  <note place="margin">See on in the firſt An<g ref="char:EOLunhyphen"/>notation.</note>So <hi>Houſhold-Acts</hi> muſt have their Myſterie:</l>
+               <l>No circumſtance can paſſe, no Servant made,</l>
+               <l>But muſt be wrapt in <hi>ſilence</hi> and cloſe <hi>ſhade.</hi>
+               </l>
+               <l>One <hi>place</hi> in Court a Riddle muſt afford,</l>
+               <l>Worthy a ſecret <hi>Sybills</hi> darke Record.</l>
+            </lg>
+            <lg>
+               <l>
+                  <note place="margin">See the 2. Annotat</note>As the Kings <hi>acts</hi> muſt all Their limits prove,</l>
+               <l>So their <hi>Reſtraint</hi> and <hi>Raines</hi> muſt check his <hi>Love.</hi>
+               </l>
+               <l>
+                  <hi>Eſteems</hi> of's Conſort by their <hi>pitch</hi> muſt flie,</l>
+               <l>Nor muſt He Rate His Deere Queens Health too <hi>high.</hi>
+               </l>
+               <l>He muſt affect thus <hi>farre,</hi> and then no <hi>more;</hi>
+               </l>
+               <l>His <hi>Tydes</hi> muſt be proportion'd to their <hi>ſhore;</hi>
+               </l>
+               <l>His <hi>Tenderneſse</hi> their <hi>Weights</hi> and <hi>Ballance</hi> weare,</l>
+               <l>By <hi>Granes</hi> and <hi>Scruples</hi> they confine His Care,</l>
+               <l>But (Savage) know, there can no Ranſome be</l>
+            </lg>
+            <lg>
+               <l>
+                  <note place="margin">See the 3. Annotat.</note>Poys'd with the Health of ſuch a Queene as <hi>ſhe.</hi>
+               </l>
+               <l>
+                  <hi>She</hi> that at once ſuch <hi>weightie</hi> Acts can doe,</l>
+               <l>That can be <hi>Queene,</hi> and yet <hi>Negotiate</hi> too.</l>
+               <l>
+                  <hi>Send,</hi> and be <hi>ſent,</hi> and without more demurre,</l>
+               <l>Be both the <hi>Queene,</hi> and Her <hi>Embaſsadour.</hi>
+               </l>
+               <l>That gives diſpatch for Ships, and when ſhe pleaſe,</l>
+               <l>Divides the Empire with the Queene oth' Seas.</l>
+               <l>Who dares the Threats of any danger ſtand,</l>
+               <l>The ſtubborne Rock, or the Devouring Sand.</l>
+               <l>And though the Sea ſwell like Her <hi>fate,</hi> and <hi>Grave,</hi>
+               </l>
+               <l>Looke at her Conſort, and deſpiſe the <hi>Wave.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>The Captiue Queene did (thus) the Tyrant tell,</l>
+               <l>I am no Captive ſo my King be well.</l>
+               <l>
+                  <note place="margin">Q. curtius lib. <hi>3.</hi>
+                  </note>By theſe, her worth and Rate is faintly knowne,</l>
+               <l>Paſt ſtories <hi>bluſh</hi> when ſhe erects Her <hi>owne.</hi>
+               </l>
+               <l>Search <hi>old Gray</hi> Annalls, you may find at length,</l>
+               <l>Some Queene in <hi>Vigour,</hi> and her <hi>mid day ſtrength.</hi>
+               </l>
+               <pb n="6" facs="tcp:171409:5"/>
+               <l>Who in her Injur'd Conſort's cauſe, referres</l>
+               <l>To Copies glancing at theſe Acts of <hi>Hers;</hi>
+               </l>
+               <l>But if <hi>Infirme</hi> and <hi>Sickly</hi> Queenes we ſcanne,</l>
+               <l>No ſtory patterns Her, None ever can.</l>
+               <l>Shew us a Queene fraught with ſuch wide Affaires,</l>
+               <l>Here private <hi>Weakneſse,</hi> there a <hi>Kingdoms</hi> Cares,</l>
+               <l>Perplext and tortur'd from her Reſt and eaſe,</l>
+               <l>By a <hi>Rebellion here,</hi> there a <hi>Diſeaſe:</hi>
+               </l>
+               <l>
+                  <hi>Advice,</hi> and <hi>Medcines</hi> at one time we view,</l>
+               <l>A <hi>Councell-Bord, Bord of Phyſitians too:</hi>
+               </l>
+               <l>Yet her Capacious Soule both theſe defeats,</l>
+               <l>While this Hand holds <hi>Inſtructions,</hi> that <hi>Receipts.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Theſe are our fam'd Queens Crimes, but yet one more</l>
+               <l>
+                  <note place="margin">See the 3. Annotat.</note>Muſt be the maine <hi>Ingredient</hi> of the Store.</l>
+               <l>Which ſeems to preſſe ſo <hi>deepe,</hi> there's nought ſo bright,</l>
+               <l>But this may ſully all it's Luſtre quite.</l>
+               <l>'Tis Her <hi>Religion's Care:</hi> She tryes Her Powr's,</l>
+               <l>To keep that ſtill. Doe not we ſo for Ours?</l>
+               <l>Why to one <hi>Face</hi> ſo diff'rent <hi>ſhapes</hi> have bin?</l>
+               <l>What <hi>Virtue</hi> is in <hi>Vs,</hi> in <hi>Her,</hi> is <hi>Sin.</hi>
+               </l>
+               <l>Our diff'rent Faith's did long together grow,</l>
+               <l>And neither ſuffer'd, neither loſſe did know:</l>
+               <l>And like a ſtream, which 'twixt two feilds doth flow,</l>
+               <l>Which as it <hi>Moiſtens,</hi> ſo <hi>Divides</hi> them too:</l>
+               <l>So did the Kingdoms Law throw <hi>Dew</hi> and <hi>growth,</hi>
+               </l>
+               <l>In <hi>weight</hi> and juſt <hi>proportion</hi> unto both,</l>
+               <l>And like a parting Current ſlide along,</l>
+               <l>To keep them <hi>wide,</hi> that neither neither <hi>Wrong.</hi>
+               </l>
+               <l>Our Faith's were then but <hi>Two,</hi> but ſince a ſp'rit</l>
+               <l>So many <hi>Muſhrome-Sects</hi> rais'd in a Night:</l>
+               <l>The <hi>Proteſtant</hi> (as ſhe could Parties gaine</l>
+               <l>Who unconcern'd were in the <hi>Dreggs</hi> and <hi>ſtaine,</hi>)</l>
+               <pb n="7" facs="tcp:171409:5"/>
+               <l>Did recommend her <hi>Votaries,</hi> and bring</l>
+               <l>Her Faith to <hi>it's Defendour,</hi> our <hi>Just King.</hi>
+               </l>
+               <l>Who with ſuch <hi>Zeale</hi> hath kept her Rites entire,</l>
+               <l>As well from <hi>Languiſhing,</hi> as from <hi>ſtrange</hi> Fire:</l>
+               <l>That ſtill the Cenſer ſavours it's true Sent,</l>
+               <l>Without <hi>Acceſsion;</hi> yet no <hi>Perfume ſpent.</hi>
+               </l>
+               <l>The happy Martyrs find their Faith hath ſtood</l>
+               <l>In <hi>Him,</hi> as when they bath'd it in their blood.</l>
+               <l>They joy to ſee, that He his God adores</l>
+               <l>Nor at <hi>High-Places,</hi> nor at <hi>Threſhing-Floores.</hi>
+               </l>
+               <l>But 'ſpight of Scandals, pay's his homage ſtill</l>
+               <l>In the <hi>Iust</hi> Beauty of the <hi>Sion-Hill.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>To <hi>Other</hi> Sects; though as in Common-Feilds</l>
+               <l>Which <hi>Swine,</hi> and <hi>Horſes, Mules,</hi> and <hi>Oxen</hi> yeilds,</l>
+               <l>Who though at <hi>Diſtance feed, Approaching, claſh,</hi>
+               </l>
+               <l>And Diſproportion'd ſhapes together daſh</l>
+               <l>So they, though one <hi>Rebellion</hi> them ſuſtaine</l>
+               <l>Themſelves <hi>Accuſe,</hi> and are <hi>Accus'd againe.</hi>
+               </l>
+               <l>Could they comply, then poſſibly might dwell</l>
+               <l>Some <hi>faint Agreement,</hi> though no <hi>Peace</hi> in Hell.</l>
+               <l>
+                  <note place="margin">See the 4. Annotati<g ref="char:EOLhyphen"/>on.</note>Now, theſe nice Taſts no <hi>Forraigne</hi> aids indure,</l>
+               <l>(Their <hi>Rebell Scots,</hi> are <hi>Engliſh Rebels</hi> ſure.)</l>
+               <l>No, nor the <hi>Papiſts:</hi> much it with them ſticks,</l>
+               <l>Leſt theſe Mens <hi>Punniards,</hi> ſhould be <hi>Hereticks:</hi>
+               </l>
+               <l>Their ſoules would be <hi>Prophan'd,</hi> and clean <hi>vndun,</hi>
+               </l>
+               <l>Should they be ſlaine by an <hi>Idolatrous</hi> Gun.</l>
+               <l>Goe lay your <hi>Vizar</hi> by, your <hi>Masking</hi> ſtuffe,</l>
+               <l>The Devill is <hi>tyr'd,</hi> and Hell hath <hi>laugh'd</hi> enough:</l>
+               <l>The world diſcries the <hi>Cheat;</hi> 'tis quickly knowne</l>
+               <l>They no Faith <hi>hate,</hi> who have <hi>Reſolv'd</hi> on None.</l>
+               <l>Theſe may not fight: that is, the King you'd haue</l>
+               <l>Tamely forſake his <hi>Crowne,</hi> and be your <hi>Slave,</hi>
+               </l>
+               <pb n="8" facs="tcp:171409:6"/>
+               <l>His Eaſier Subjects long agoe you gart,</l>
+               <l>All who approv'd your <hi>Baite,</hi> and ſwallow <hi>that.</hi>
+               </l>
+               <l>Indeed, <hi>Diſcerning</hi> ſoules the ſnare forſooke,</l>
+               <l>And through the <hi>Wave</hi> did ſtill diſcrie the <hi>Hooke;</hi>
+               </l>
+               <l>But yet ſo <hi>cloſe</hi> deſignes were caſt about,</l>
+               <l>Your Race was <hi>halfe runne</hi> ere the King <hi>ſet out.</hi>
+               </l>
+               <l>Yet you <hi>complaine,</hi> and guilty feares doe <hi>gnaw,</hi>
+               </l>
+               <l>Leſt you ſhould <hi>ſcanted</hi> be for <hi>Space</hi> and <hi>Law:</hi>
+               </l>
+               <l>Conſcious, though you your cauſe did <hi>forward</hi> meet.</l>
+               <l>It's <hi>Guilt</hi> and <hi>Sin</hi> hangs <hi>Plummets</hi> at it's feet.</l>
+            </lg>
+            <lg>
+               <l>Are not the <hi>Jewes, Walloones,</hi> the <hi>Turks,</hi> and all</l>
+               <l>Whom from as <hi>Diff'rent Gods</hi> as Lands you call,</l>
+               <l>An Armie <hi>ſtrong</hi> to keep the cauſe in heart,</l>
+               <l>But that the <hi>King</hi> muſt with His <hi>Subjects</hi> part?</l>
+               <l>Can no Acceſſion ſo much ſafety ſend,</l>
+               <l>But you will <hi>dread</hi> Him <hi>ſtill</hi> before you end?</l>
+            </lg>
+            <lg>
+               <l>Some times at Ebbes his God doth let Him ſtand,</l>
+               <l>
+                  <note place="margin">See on in the 4. An<g ref="char:EOLhyphen"/>notation.</note>That ſo the Reſcue may declare His hand.</l>
+               <l>But, what (you hope) may make the King's ſide pauſe,</l>
+               <l>Is what He writes about the <hi>Penall Lawes.</hi>
+               </l>
+               <l>Poore, ſhallow ſoules! I deeme it one from hence</l>
+               <l>To forfeit <hi>Loyalty,</hi> and forfeit <hi>Senſe.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Shall ſuch as waſt their Blood be quite debarr'd,</l>
+               <l>And kept without the <hi>Pale</hi> from all <hi>Reward?</hi>
+               </l>
+               <l>Shall fame Report, ſhall after Ages tell,</l>
+               <l>So Juſt King regards not who doe well?</l>
+            </lg>
+            <lg>
+               <l>But you pretend, this was a <hi>State-Decree,</hi>
+               </l>
+               <l>Not without Pow'r which <hi>made</hi> may <hi>cancell'd</hi> be.</l>
+               <l>The King <hi>nev'r</hi> ſaies it ſhall: but cannot doubt</l>
+               <l>That when His God hath brought His work about,</l>
+               <l>And ſhifted <hi>Iarres</hi> and <hi>Tumults</hi> into <hi>Eaſe,</hi>
+               </l>
+               <l>And ſeat him 'mideſt his Councell in <hi>High Peace:</hi>
+               </l>
+               <pb n="9" facs="tcp:171409:6"/>
+               <l>Their <hi>joynt vnited</hi> ſuffrage will think fit,</l>
+               <l>To give <hi>this</hi> Act; or ſomething <hi>Great</hi> as <hi>it.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <note place="margin">See on in the 4. An<g ref="char:EOLhyphen"/>notation.</note>But ſee, His <hi>Pardon</hi> then to <hi>Ireland</hi> came,</l>
+               <l>(Wild <hi>Rebels</hi>) offers He not you the <hi>ſame?</hi>
+               </l>
+               <l>He holds ſtill out the <hi>ſame</hi> freſh cheerfull Ray,</l>
+               <l>You <hi>ſhutt</hi> your <hi>Windowes</hi> and <hi>exclude</hi> the <hi>Day.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Embrace the <hi>ſhine,</hi> or elſe expect the <hi>ſtroake:</hi>
+               </l>
+               <l>The Flint the Sunne ne're <hi>melts,</hi> at laſt is <hi>brooke,</hi>
+               </l>
+               <l>But now the Flood-Gates op',<note place="margin">See on.</note> and a free Sluce,</l>
+               <l>Let's in all Senſeleſſe Doctrines, and wild Vſe.</l>
+               <l>And by <hi>Comparing</hi> what's ſaid <hi>long agoe,</hi>
+               </l>
+               <l>Finds <hi>Diſproportion</hi> in the <hi>King's Acts now.</hi>
+               </l>
+               <l>His <hi>paſt</hi> Reſolves it up to <hi>Preſent</hi> brings,</l>
+               <l>His <hi>Vowes</hi> to <hi>Vowes,</hi> and <hi>Things</hi> to combat <hi>Things.</hi>
+               </l>
+               <l>A <hi>Diff'rent</hi> face throughout, and a <hi>freſh</hi> Scene</l>
+               <l>Succeeds: and all his Acts <hi>ſeeme</hi> ſhifted cleane.</l>
+               <l>Weak men! who are depriv'd by <hi>Guilt</hi> or chance,</l>
+               <l>Of all the <hi>lights</hi> of Common Circumſtance;</l>
+               <l>That have unlearn't that <hi>Actions ſhift</hi> their <hi>Face,</hi>
+               </l>
+               <l>And date their worth from <hi>Perſons, Time,</hi> and <hi>Place,</hi>
+               </l>
+               <l>And <hi>ſundry ſuch,</hi> from <hi>whoſe Neglects</hi> appeare</l>
+               <l>Acts as <hi>Sinnes there,</hi> which are <hi>Try'd Virtues here.</hi>
+               </l>
+               <l>For inſtance then: oft as the King reflects</l>
+               <l>His <hi>Oath's injoyne;</hi> His <hi>People He protects.</hi>
+               </l>
+               <l>Which <hi>Oathes extent, and Circuit</hi> we may view</l>
+               <l>
+                  <hi>Spread</hi> ore th' <hi>Five Execrable Members</hi> too.</l>
+               <l>Yet (farre <hi>as't them concernes</hi>) that <hi>Chaine</hi> is <hi>broke,</hi>
+               </l>
+               <l>That <hi>Oath</hi> left <hi>Him,</hi> becauſe they left <hi>His Yoake.</hi>
+               </l>
+               <l>Now of this <hi>Pitch,</hi> and <hi>Size,</hi> doe ſtill appeare,</l>
+               <l>All <hi>Aerie</hi> Scruples which are ſtarred there.</l>
+            </lg>
+            <lg>
+               <l>The King <hi>Declared,</hi> He thought you meant no Ill.</l>
+               <l>
+                  <hi>Say,</hi> would you the King <hi>Declareſo ſtill?</hi>
+               </l>
+            </lg>
+            <pb n="10" facs="tcp:171409:7" rendition="simple:additions"/>
+            <lg>
+               <l>Allow but <hi>diff'rent</hi> Circumſtance, and we</l>
+               <l>Find, all your <hi>Scandals</hi> will His <hi>Gloryes</hi> be.</l>
+               <l>Now, as the <hi>worſt</hi> things have <hi>ſome</hi> things of <hi>ſtead,</hi>
+               </l>
+               <l>And ſome <hi>Toades</hi> treaſure <hi>Jewels</hi> in their Head.</l>
+               <l>So doth this <hi>Libels Wombe girt,</hi> and <hi>containe</hi>
+               </l>
+               <l>What though it <hi>compaſse Round</hi> it cannot <hi>ſtaine.</hi>
+               </l>
+               <l>Lines of ſo <hi>cleare,</hi> yet ſo <hi>Majeſtick</hi> ſtrame,</l>
+               <l>A moſt <hi>Tranſparent,</hi> yet a <hi>cloſe-wove</hi> Veine.</l>
+               <l>Which when we reach its <hi>Senſe,</hi> we may diſcrie</l>
+               <l>We ſee more by <hi>its Light,</hi> then <hi>our owne</hi> Eye.</l>
+            </lg>
+            <lg>
+               <l>So <hi>Phoebus</hi> (when the <hi>Clowd</hi> and <hi>Night</hi> is done)</l>
+               <l>Lends us his Light to know he is the Sunne.</l>
+               <l>Yet this expreſſive Cleareneſſe is but <hi>barke,</hi>
+               </l>
+               <l>An <hi>Out-ſide<g ref="char:punc">▪</g>
+                  </hi> Sunne which guards us from the darke.</l>
+               <l>Here, the <hi>Bright</hi> Language ſhuts in <hi>Brighter</hi> ſenſe,</l>
+               <l>
+                  <hi>Rich</hi> Diamonds ſleep within a <hi>Chryſtall</hi> Fence.</l>
+               <l>Gemmes of that rate, to <hi>Tully</hi> they'd appeare</l>
+               <l>Fitt Purchaſe <hi>for his Critick</hi> Senates <hi>Eare.</hi>
+               </l>
+               <l>And their whole Shine in a full Luſtre tends</l>
+               <l>To God, His Conſcience, Conſort, and His Friends.</l>
+            </lg>
+            <div type="conclusion">
+               <head>THE CLOSE.</head>
+               <lg>
+                  <l>No <hi>winding</hi> Characters, no <hi>ſecret</hi> Maze</l>
+                  <l>Could ſo <hi>perplex,</hi> but they have found their wayes:</l>
+                  <l>They <hi>thred</hi> the Labyrinth: and what to doe?</l>
+                  <l>Where <hi>tends</hi> the Guide? what <hi>purchaſe</hi> in this Clew?</l>
+                  <l>
+                     <note place="margin">Q. Curtius lib. <hi>3.</hi>
+                     </note>Raſh <hi>Alexander</hi> forc't King <hi>Gordius Knott,</hi>
+                  </l>
+                  <l>And ſo in hand found he a <hi>Rope</hi> had gott.</l>
+               </lg>
+            </div>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:171409:7"/>
+         </div>
+      </body>
+   </text>
+</TEI>
